@@ -1,0 +1,449 @@
+[
+    {
+        "word": "`thilei",
+        "ipa": "\u00f0il\u025bi",
+        "eng_word": "father",
+        "wn_id": "father.n.01",
+        "definition": "a male parent (also used as a term of address to your father)",
+        "examples": [
+            "his father was born in Atlanta"
+        ],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "parent",
+                "definition": "a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian",
+                "wn_id": "parent.n.01"
+            }
+        ],
+        "hyponyms": [
+            {
+                "word": "dad",
+                "definition": "an informal term for a father; probably derived from baby talk",
+                "wn_id": "dad.n.01"
+            },
+            {
+                "word": "father-in-law",
+                "definition": "the father of your spouse",
+                "wn_id": "father-in-law.n.01"
+            },
+            {
+                "word": "old_man",
+                "definition": "an informal term for your father",
+                "wn_id": "old_man.n.03"
+            },
+            {
+                "word": "pater",
+                "definition": "an informal use of the Latin word for father; sometimes used by British schoolboys or used facetiously",
+                "wn_id": "pater.n.01"
+            }
+        ],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [
+            {
+                "word": "mother",
+                "definition": "a woman who has given birth to a child (also used as a term of address to your mother)",
+                "wn_id": "mother.n.01"
+            },
+            {
+                "word": "female_parent",
+                "definition": "a woman who has given birth to a child (also used as a term of address to your mother)",
+                "wn_id": "mother.n.01"
+            }
+        ],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "house",
+        "wn_id": "house.n.07",
+        "definition": "play in which children take the roles of father or mother or children and pretend to interact like adults",
+        "examples": [
+            "the children were playing house"
+        ],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "play",
+                "definition": "activity by children that is guided more by imagination than by fixed rules",
+                "wn_id": "play.n.08"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "leia`th\u00ea",
+        "ipa": "l\u025bia\u00f0\u025c",
+        "eng_word": "aunt",
+        "wn_id": "aunt.n.01",
+        "definition": "the sister of your father or mother; the wife of your uncle",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "kinswoman",
+                "definition": "a female relative",
+                "wn_id": "kinswoman.n.01"
+            }
+        ],
+        "hyponyms": [
+            {
+                "word": "great-aunt",
+                "definition": "an aunt of your father or mother",
+                "wn_id": "great-aunt.n.01"
+            },
+            {
+                "word": "maiden_aunt",
+                "definition": "an unmarried aunt",
+                "wn_id": "maiden_aunt.n.01"
+            }
+        ],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [
+            {
+                "word": "uncle",
+                "definition": "the brother of your father or mother; the husband of your aunt",
+                "wn_id": "uncle.n.01"
+            }
+        ],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "leia`thi",
+        "ipa": "l\u025bia\u00f0i",
+        "eng_word": "uncle",
+        "wn_id": "uncle.n.01",
+        "definition": "the brother of your father or mother; the husband of your aunt",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "kinsman",
+                "definition": "a male relative",
+                "wn_id": "kinsman.n.01"
+            }
+        ],
+        "hyponyms": [
+            {
+                "word": "great-uncle",
+                "definition": "an uncle of your father or mother",
+                "wn_id": "great-uncle.n.01"
+            }
+        ],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [
+            {
+                "word": "aunt",
+                "definition": "the sister of your father or mother; the wife of your uncle",
+                "wn_id": "aunt.n.01"
+            }
+        ],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "great-aunt",
+        "wn_id": "great-aunt.n.01",
+        "definition": "an aunt of your father or mother",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "aunt",
+                "definition": "the sister of your father or mother; the wife of your uncle",
+                "wn_id": "aunt.n.01"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "lei",
+        "ipa": "l\u025bi",
+        "eng_word": "parent",
+        "wn_id": "parent.n.01",
+        "definition": "a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "genitor",
+                "definition": "a natural father or mother",
+                "wn_id": "genitor.n.01"
+            }
+        ],
+        "hyponyms": [
+            {
+                "word": "adoptive_parent",
+                "definition": "a person who adopts a child of other parents as his or her own child",
+                "wn_id": "adoptive_parent.n.01"
+            },
+            {
+                "word": "empty_nester",
+                "definition": "a parent whose children have grown up and left home",
+                "wn_id": "empty_nester.n.01"
+            },
+            {
+                "word": "father",
+                "definition": "a male parent (also used as a term of address to your father)",
+                "wn_id": "father.n.01"
+            },
+            {
+                "word": "filicide",
+                "definition": "a parent who murders his own son or daughter",
+                "wn_id": "filicide.n.01"
+            },
+            {
+                "word": "mother",
+                "definition": "a woman who has given birth to a child (also used as a term of address to your mother)",
+                "wn_id": "mother.n.01"
+            },
+            {
+                "word": "stepparent",
+                "definition": "the spouse of your parent by a subsequent marriage",
+                "wn_id": "stepparent.n.01"
+            }
+        ],
+        "holonyms": [
+            {
+                "word": "family",
+                "definition": "primary social group; parents and children",
+                "wn_id": "family.n.02"
+            }
+        ],
+        "meronyms": [],
+        "antonyms": [
+            {
+                "word": "child",
+                "definition": "a human offspring (son or daughter) of any age",
+                "wn_id": "child.n.02"
+            }
+        ],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "dad",
+        "wn_id": "dad.n.01",
+        "definition": "an informal term for a father; probably derived from baby talk",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "father",
+                "definition": "a male parent (also used as a term of address to your father)",
+                "wn_id": "father.n.01"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "father-in-law",
+        "wn_id": "father-in-law.n.01",
+        "definition": "the father of your spouse",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "father",
+                "definition": "a male parent (also used as a term of address to your father)",
+                "wn_id": "father.n.01"
+            },
+            {
+                "word": "in-law",
+                "definition": "a relative by marriage",
+                "wn_id": "in-law.n.01"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "old_man",
+        "wn_id": "old_man.n.03",
+        "definition": "an informal term for your father",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "dysphemism",
+                "definition": "an offensive or disparaging expression that is substituted for an inoffensive one",
+                "wn_id": "dysphemism.n.01"
+            },
+            {
+                "word": "father",
+                "definition": "a male parent (also used as a term of address to your father)",
+                "wn_id": "father.n.01"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "pater",
+        "wn_id": "pater.n.01",
+        "definition": "an informal use of the Latin word for father; sometimes used by British schoolboys or used facetiously",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "father",
+                "definition": "a male parent (also used as a term of address to your father)",
+                "wn_id": "father.n.01"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "\u00fbllei",
+        "ipa": "\u0268ll\u025bi",
+        "eng_word": "grandparent",
+        "wn_id": "grandparent.n.01",
+        "definition": "a parent of your father or mother",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "forebear",
+                "definition": "a person from whom you are descended",
+                "wn_id": "forebear.n.01"
+            }
+        ],
+        "hyponyms": [
+            {
+                "word": "grandfather",
+                "definition": "the father of your father or mother",
+                "wn_id": "grandfather.n.01"
+            },
+            {
+                "word": "grandma",
+                "definition": "the mother of your father or mother",
+                "wn_id": "grandma.n.01"
+            }
+        ],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "grandfather",
+        "wn_id": "grandfather.n.01",
+        "definition": "the father of your father or mother",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "grandparent",
+                "definition": "a parent of your father or mother",
+                "wn_id": "grandparent.n.01"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    },
+    {
+        "word": "",
+        "ipa": "",
+        "eng_word": "grandma",
+        "wn_id": "grandma.n.01",
+        "definition": "the mother of your father or mother",
+        "examples": [],
+        "part_of_speech": "Noun",
+        "hypernyms": [
+            {
+                "word": "grandparent",
+                "definition": "a parent of your father or mother",
+                "wn_id": "grandparent.n.01"
+            }
+        ],
+        "hyponyms": [
+            {
+                "word": "nan",
+                "definition": "your grandmother",
+                "wn_id": "nan.n.01"
+            }
+        ],
+        "holonyms": [],
+        "meronyms": [],
+        "antonyms": [],
+        "synonyms": [],
+        "similar_to": [],
+        "attributes": [],
+        "entailments": []
+    }
+]

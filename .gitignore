@@ -1,0 +1,10 @@
+logs/*
+data/whole_language.json
+data/english_dict.json
+conlangenv/bin
+conlangenv/lib
+conlangenv/include
+conlangenv/lib64
+__pycache__
+**/*.pyc
+error.log

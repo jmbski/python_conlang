@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Viewer</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        }
+
+        #jsonRender {
+        white-space: pre-wrap;
+        }
+
+        .key {
+        color: brown;
+        }
+
+        .string {
+        color: green;
+        }
+
+        .number {
+        color: darkorange;
+        }
+
+        .boolean {
+        color: blue;
+        }
+
+        .null {
+        color: magenta;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/jquery.json-viewer/json-viewer/jquery.json-viewer.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/jquery.json-viewer/json-viewer/jquery.json-viewer.css" />
+</head>
+<body>
+    <div id="jsonRender"></div>
+
+        <script>
+            // JSON data, replace this with your server data
+            let jsonData = py_json_data;
+
+            // Display the JSON data on the page with syntax highlighting
+            $('#jsonRender').jsonViewer(jsonData, {collapsed: true});
+        </script>
+    </body>
+</html>
