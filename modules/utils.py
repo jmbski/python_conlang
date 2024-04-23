@@ -1,5 +1,5 @@
 import json, nanoid, re, flask
-from flask import g, has_request_context
+from flask import g, has_request_context, request
 from typing import Any
 from datetime import datetime
 from modules.common import (
@@ -7,7 +7,8 @@ from modules.common import (
     DOUBLE_QUOTE_PATTERN,
     LIST_STR_PATTERN,
     LIST_STR_SEPARATOR_PATTERN,
-    SINGLE_QUOTE_PATTERN
+    SINGLE_QUOTE_PATTERN,
+    GLOBAL_VARS
 )
 from inspect import isclass
 import inspect
@@ -295,4 +296,21 @@ def reorder_dict_by_value(obj: dict) -> dict:
 
 def test_request():
     if(has_request_context()):
-        print('request', g.get('uow_id'))
+        print('request', g.get('identifier'))
+
+def gen_simple_id(count: int = 10) -> str:
+    return nanoid.non_secure_generate('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz', size=count)
+
+def gen_uow_id():
+    server = 'gunicorn' if GLOBAL_VARS.is_gunicorn else 'flask'
+    req_id = gen_simple_id()
+    if(has_request_context() and request is not None):
+        endpoint = request.endpoint
+        
+        g.identifier = f'{server}-{endpoint}-{req_id}'
+    else:
+        if(GLOBAL_VARS.get('server_id') is None):
+            server_id = f'{server}-{req_id}-FLASKAPI'
+            GLOBAL_VARS.server_id = server_id
+        
+        

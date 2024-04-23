@@ -1,4 +1,30 @@
-import json
+import json, sys
+class DictClass(dict):
+    
+    def __init_subclass__(cls) -> None:
+        return super().__init_subclass__()
+    
+    def __init__(self, *args, **kwargs) -> None:
+        return super().__init__(*args, **kwargs)
+    
+    def __new__(cls, *args, **kwargs):
+        return super().__new__(cls)
+    
+    def __getitem__(self, key):
+        
+        return super().__getitem__(key)
+    
+    def __setitem__(self, key, value):
+        super().__setattr__(key, value)
+        return super().__setitem__(key, value)
+    
+    def __getattribute__(self, name: str):
+        
+        return super().__getattribute__(name)
+    
+    def __setattr__(self, name: str, value) -> None:
+        self.__setitem__(name, value)
+
 DATA_PATH = '/home/joseph/coding_base/silverlight/conlang/python/data/'
 LIST_STR_PATTERN = r'^\[(.*)\]$'
 LIST_STR_SEPARATOR_PATTERN = r'(\w[^,]*\w)'
@@ -14,6 +40,9 @@ NLTK_DOWNLOADS = {
     'cmudict': '/home/joseph/nltk_data/corpora/cmudict.zip',
 }
 NLTK_DATA_DIR = '/home/joseph/nltk_data'
+
+GLOBAL_VARS = DictClass()
+GLOBAL_VARS.is_gunicorn = 'gunicorn' in sys.argv[0].lower()
 LOG_CONTEXTS: dict = {}
 ORTHO_CATEGORIES = {
     "A": [ "a" ],
