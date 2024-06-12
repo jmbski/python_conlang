@@ -1,18 +1,22 @@
-from ast import FunctionType
-import inspect, json
-import ety, uuid
-from ety.word import Word
-from modules import common, decorators
-import sys
-import logging, traceback
-lj_words = common.LEIPZIG_JAKARTA[0:10]
+from langchain_community.llms import _import_ollama
+from langchain_community.document_loaders import JSONLoader, TextLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import OllamaEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain.chains.retrieval_qa.base import RetrievalQA
+from langchain.chains.retrieval import create_retrieval_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
 
-test_obj = {
-    'var1': 1,
-    'var2': 2,
-    'var3': 3
 
-}
+""" ollama = _import_ollama()
+silverlight = './data/silverlight.txt'
+text_loader = TextLoader(silverlight)
+data = text_loader.load()
+oembed = OllamaEmbeddings(base_url="http://localhost:6000", model="llama3")
+vectorstore = Chroma.from_documents(documents=data, embedding=oembed)
 
-var1 = test_obj.pop('var1')
-print(var1, test_obj)
+question = 'How many moons does Silverlight have?'
+
+qachain = create_retrieval_chain(vectorstore.as_retriever(), ollama )
+qachain.invoke({"query": question}) """
+

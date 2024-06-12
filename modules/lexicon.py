@@ -15,7 +15,7 @@ from nltk.stem.lancaster import LancasterStemmer
 
 from fuzzywuzzy import fuzz
 from modules.common import *
-from modules.lang_data import LanguageData
+from modules.lang_config import LanguageConfig
 from tqdm import tqdm
 from wordsegment import load, segment
 
@@ -349,7 +349,7 @@ def test():
         'grapheme_lookup': GRAPHEME_LOOKUP,
     }
     
-    lang = LanguageData(lang_settings)
+    lang = LanguageConfig(lang_settings)
     
     """ dictionary = utils.load_data('english_dict.json')
     meanings_list = []

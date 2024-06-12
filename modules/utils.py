@@ -62,7 +62,7 @@ def to_dict(obj: Any, allow_none: bool = True, forbidden_keys: list[str] = [], a
         return new_dict
     if(isinstance(obj, datetime)):
         return obj.strftime('%m/%d/%Y')
-    if not isinstance(obj, (str, int, float, list, dict)) and hasattr(obj, "__dict__"):
+    if(not isinstance(obj, (str, int, float, list, dict)) and hasattr(obj, "__dict__")):
         return to_dict(obj.__dict__, allow_none, forbidden_keys, allow_empty, forbidden_values, forbidden_types, forbidden_prefixes)
     
     return obj

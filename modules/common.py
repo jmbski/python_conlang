@@ -97,7 +97,6 @@ SYLLABLES: dict = {
     'HJ': 450,
 
     'JAI': 425,
-    'AE': 400,
     'LAI': 425,
     'LEI': 420,
     'AEL': 500,

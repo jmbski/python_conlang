@@ -1,0 +1,17 @@
+beautifulsoup4
+eng_to_ipa
+Flask
+flask_cors
+fuzzywuzzy
+nanoid
+nltk
+numpy
+ollama
+panphon
+phonemizer
+PyDictionary
+scipy
+selenium
+spacy
+tqdm
+wordsegment

@@ -9,7 +9,7 @@ _id_str = utils.gen_simple_id()
 
 GLOBAL_VARS.server_id = f'{_server}-{_id_str}-FLASKAPI'
 
-logging.setLogRecordFactory(CustomLogRecord)
+#logging.setLogRecordFactory(CustomLogRecord)
 
 reload = True
 logconfig_dict = LOG_CONFIG

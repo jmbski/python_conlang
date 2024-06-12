@@ -1,7 +1,7 @@
 from modules import utils
 from random import random, choices
 
-class LanguageData:
+class LanguageConfig:
     """ A class representing the various data points for a conlang. """
     
     ipa_escape: dict = {
@@ -15,6 +15,8 @@ class LanguageData:
     
     def __init__(self, init: dict = None) -> None:
         """ Initialize the language data. """
+        self.lang_config_id: int = None
+        """ The ID of the language. """
         
         self.name: str = ''
         """ Name of the language. """
